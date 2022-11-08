@@ -42,7 +42,7 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: ab-django-github-actions
+        application_name: lab-django-github-actions
         environment_name: Labdjangogithubactions-env
         version_label: 12348
         region: "us-east-1"
